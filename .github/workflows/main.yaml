@@ -40,4 +40,4 @@ jobs:
           cache-dependency-path: 'src/main/client/package-lock.json'
 
       - name: 'Application :: Build'
-        run: ./mvn package -DskipTests
+        run: mvn package -DskipTests
